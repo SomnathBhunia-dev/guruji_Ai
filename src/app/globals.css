@@ -31,3 +31,43 @@ body {
     text-wrap: balance;
   }
 }
+/* styles/globals.css or similar */
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  color: #000; /* Adjust color as needed */
+}
+
+.prose p, .prose ul, .prose ol  {
+  color: #000; /* Adjust color as needed */
+}
+
+.prose strong {
+  color: black
+}
+.prose code {
+  color: green
+}
+.prose pre {
+  background-color: white
+}
+
+/* styles/globals.css or your CSS module */
+/* @keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+.animated-text-container {
+  display: flex;
+  flex-direction: column; /* Stack lines vertically */
+/* } */
+
+/* .animated-text-line {
+  display: inline-block;
+  /* white-space: nowrap; */
+  /* overflow: hidden; */
+  /* animation: typewriter 4s steps(30, end) 1s 1 normal both; */
+  /* font-family: monospace; Optional: for a typewriter look */
+  /* box-sizing: border-box; */
+  /* Ensure text color visibility */
+  /* color: inherit; */
+/* } */ 
