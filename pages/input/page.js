@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 import { useDispatch } from 'react-redux';
-import { addInput, addOutput } from '../Redux/Reducers/reducer';
+import { addInput, addOutput } from '../../src/app/Redux/Reducers/reducer';
 
 export default function Input() {
   const [input, setInput] = useState('');
