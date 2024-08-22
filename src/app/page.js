@@ -1,8 +1,8 @@
 "use client"
 import { Provider } from 'react-redux';
 import store from './Redux/store';
-import Chat from '../../pages/output/page';
-import Input from '../../pages/input/page';
+import Chat from './Chat';
+import Input from './Input';
 
 export default function Home() {
   return (

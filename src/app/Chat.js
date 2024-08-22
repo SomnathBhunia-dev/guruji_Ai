@@ -7,7 +7,6 @@ export default function Chat() {
   const chat = useSelector((state) => state.chat);
 
   console.log(chat);
-
   return (
     <>
       {chat.length > 0 &&
